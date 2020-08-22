@@ -1,2 +1,4 @@
-def speak_to_grandma
-  If Statements Lab
+def speak_to_grandma(phrase)
+  if phrase != phrase.upcase
+    "HUH?! SPEAK UP, SONNY!"
+  
